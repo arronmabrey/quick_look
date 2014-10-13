@@ -5,6 +5,10 @@ module QuickLook
     def instance
       @instance ||= Instance.new
     end
+
+    def open(path)
+      instance.open(path)
+    end
   end
 
   class Instance
