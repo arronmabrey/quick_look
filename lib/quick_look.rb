@@ -9,6 +9,10 @@ module QuickLook
     def open(path)
       instance.open(path)
     end
+
+    def close(path)
+      instance.close(path)
+    end
   end
 
   class Instance
