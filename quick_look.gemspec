@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = QuickLook::VERSION
   spec.authors       = ["Arron Mabrey"]
   spec.email         = ["arron@mabreys.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
+  spec.summary       = %q{A very simplistic ruby wrapper around QuickLook for OS X.}
+  spec.description   = %q{A very simplistic ruby wrapper around QuickLook for OS X}
   spec.homepage      = ""
   spec.license       = "MIT"
 
