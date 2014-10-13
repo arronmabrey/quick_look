@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Arron Mabrey"]
   spec.email         = ["arron@mabreys.com"]
   spec.summary       = %q{A very simplistic ruby wrapper around QuickLook for OS X.}
-  spec.description   = %q{A very simplistic ruby wrapper around QuickLook for OS X}
+  spec.description   = %q{A very simplistic ruby wrapper around QuickLook for OS X.}
   spec.homepage      = "https://github.com/arronmabrey/quick_look"
   spec.license       = "MIT"
 
