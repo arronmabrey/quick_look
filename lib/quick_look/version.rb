@@ -1,0 +1,3 @@
+module QuickLook
+  VERSION = "0.0.1"
+end
