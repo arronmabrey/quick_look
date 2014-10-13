@@ -1,6 +1,6 @@
 # QuickLook
 
-TODO: Write a gem description
+A very simplistic ruby wrapper around QuickLook for OS X.
 
 ## Installation
 
@@ -20,7 +20,13 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```ruby
+path = "/some/path/to/a/file.jpg"
+
+QuickLook.open(path)
+
+QuickLook.close(path)
+```
 
 ## Contributing
 
