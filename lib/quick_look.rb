@@ -1,6 +1,12 @@
 require "quick_look/version"
 
 module QuickLook
+  class << self
+    def instance
+      @instance ||= Instance.new
+    end
+  end
+
   class Instance
     def initialize
       @pid_map = {}
