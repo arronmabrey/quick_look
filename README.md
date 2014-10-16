@@ -21,6 +21,8 @@ Or install it yourself as:
 ## Usage
 
 ```ruby
+require 'quick_look'
+
 path = "/some/path/to/a/file.jpg"
 
 QuickLook.open(path)
@@ -30,7 +32,7 @@ QuickLook.close(path)
 
 ## Contributing
 
-1. Fork it ( https://github.com/[my-github-username]/quick_look/fork )
+1. Fork it ( https://github.com/arronmabrey/quick_look/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
